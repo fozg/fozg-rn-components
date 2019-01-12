@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
   "name": "fozg-rn-components",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "libs.js",
   "module": "libs.js"
 }
