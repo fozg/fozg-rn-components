@@ -2,19 +2,5 @@
   "version": "0.0.1",
   "name": "fozg-rn-components",
   "main": "node_modules/expo/AppEntry.js",
-  "module": "libs.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "eject": "expo eject"
-  },
-  "dependencies": {
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
-  },
-  "devDependencies": {
-    "expo": "^31.0.2",
-    "babel-preset-expo": "^5.0.0"
-  }
+  "module": "libs.js"
 }
