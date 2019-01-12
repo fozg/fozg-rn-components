@@ -1,5 +1,5 @@
 
-import BigHeader from './components/BigHeader';
+import TabHeader from './components/tabHeader';
 
 export {
   BigHeader
