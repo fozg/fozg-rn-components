@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text} from 'react-native';
+import TabHeader from './tabHeader';
 
 export default ({title}) => (
   <View style={{justifyContent: 'flex-start',}}>
