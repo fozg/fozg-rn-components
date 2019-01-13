@@ -9,8 +9,9 @@ export const styles = {
 }
 
 export const colors = {
-  red: 'red',
-  blue: 'blue',
+  black: '#333',
+  red: '#ff3e24',
+  blue: '#49b2fa',
   lightgray: '#efefef',
   gray: '#ddd'
 }

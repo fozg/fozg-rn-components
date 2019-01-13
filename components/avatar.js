@@ -9,7 +9,7 @@ export default ({
 }) => (
   <View
     style={{
-      backgroundColor: colors.gray,
+      backgroundColor: colors.red,
       width: 40,
       height: 40,
       borderRadius: 40
