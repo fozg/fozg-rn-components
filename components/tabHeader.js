@@ -7,7 +7,7 @@ import Avatar from './avatar';
 import Spacing from './spacing';
 
 export default ({title, avatar, rightControls}) => (
-  <Row style={{paddingTop: 42, padding: 10}}>
+  <Row style={{paddingTop: 32, padding: 10}}>
     {avatar && <>
       <Avatar />
       <Spacing />

@@ -1,10 +1,22 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, ScrollView} from 'react-native';
 import TabHeader from './tabHeader';
 
-export default ({title}) => (
-  <View style={{justifyContent: 'flex-start',}}>
-    <Text style={{fontSize: 25, fontWeight: '600'}}>{title}</Text>
-    <Text>This is header 3</Text>
+export default ({title, children, ...rest}) => (
+  <View>
+    <TabHeader title={title} {...rest} />
+    <ScrollView style={styles.tabContent}>
+      {children}
+    </ScrollView>
   </View>
 );
+
+const styles = {
+  container: {
+    flex: 1
+  },
+  tabContent: {
+    flex: 1,
+    padding: 10
+  }
+}
