@@ -8,20 +8,26 @@ export default ({
   size = 'MEDIUM',
   color = colors.black,
   icon,
-  seletedIcon,
-  seletedColor = colors.red,
+  seletedIcon = icon,
+  seletedColor = colors.white,
   isSeleted,
   onPress,
 }) => (
   <TouchableOpacity
     onPress={onPress}
     style={{
-      backgroundColor: isSeleted ? colors.gray : colors.lightgray,
+      backgroundColor: isSeleted ? colors.red: colors.lightgray,
       width: {SMALL: 15, MEDIUM: 35, LARGE: 45}[size],
       height: {SMALL: 15, MEDIUM: 35, LARGE: 45}[size],
+      justifyContent: "center",
+      alignItems: "center",
       borderRadius: 30
     }}
   >
-    <Icon name={icon} color={isSeleted ? seletedColor : color} />
+    <Icon 
+      name={isSeleted ? seletedIcon : icon} 
+      color={isSeleted ? seletedColor : color}
+      size={23}
+    />
   </TouchableOpacity>
 )

@@ -10,10 +10,12 @@ export const styles = {
 
 export const colors = {
   black: '#333',
+  darkGray: "darkgray",
   red: '#ff3e24',
   blue: '#49b2fa',
   lightgray: '#efefef',
-  gray: '#ddd'
+  gray: '#ddd',
+  white: "#fff"
 }
 
 export const size = {

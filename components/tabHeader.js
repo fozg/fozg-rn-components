@@ -4,7 +4,7 @@ import {View, Text} from 'react-native';
 import H1 from './h1';
 import Row from './row';
 import Avatar from './avatar';
-import Spacing from './spcing';
+import Spacing from './spacing';
 
 export default ({title, avatar, rightControls}) => (
   <Row style={{paddingTop: 42, padding: 10}}>
