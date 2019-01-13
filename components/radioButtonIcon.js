@@ -1,11 +1,10 @@
 import React from 'react';
 import {TouchableOpacity} from 'react-native';
-// import Icon from 'react-native-vector-icons'
+import Icon from 'react-native-vector-icons/Entypo';
 
 import {styles, size, colors} from '../variables';
 
 export default ({
-  children,
   size = 'MEDIUM',
   color = colors.black,
   icon,
@@ -22,5 +21,7 @@ export default ({
       height: {SMALL: 15, MEDIUM: 35, LARGE: 45}[size],
       borderRadius: 30
     }}
-  >{children}</TouchableOpacity>
+  >
+    <Icon name={icon} color={isSeleted ? seletedColor : color} />
+  </TouchableOpacity>
 )
