@@ -5,8 +5,6 @@
 ## Installation
 ```bash
 npm install https://github.com/fozg/fozg-rn-components.git
-```
-or
-```bash
+# or
 yarn add https://github.com/fozg/fozg-rn-components.git
 ```
