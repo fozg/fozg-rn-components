@@ -11,7 +11,7 @@ export default ({
     {
       React.Children.map(children, (child, index) => (
         React.cloneElement(child, {
-          styles: {
+          style: {
             borderTopLeftRadius: index !== 0 ? 0 : 50,
             borderBottomLeftRadius: index !== 0 ? 0 : 50,
             borderTopRightRadius: index !== children.length - 1 ? 0 : 50,
