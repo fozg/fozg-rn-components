@@ -15,3 +15,8 @@ export function getColorSysNameFromProps (props) {
 export function intersection(array1, array2) {
   return array1.filter(value => -1 !== array2.indexOf(value))
 }
+
+export function upperFirstLetter (str) {
+  let s = str.toLowerCase();
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}

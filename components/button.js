@@ -40,7 +40,7 @@ const coreStyles = {
   paddingLeft: 20,
   paddingRight: 20,
   height: 40,
-  borderRadius: 40,
+  borderRadius: 10,
   shadowOffset: {width: 0, height: 3},
   shadowColor: '#000',
   shadowRadius: 2,

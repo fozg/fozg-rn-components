@@ -2,6 +2,8 @@
 import Avatar from './components/avatar';
 import Button from './components/button';
 import ButtonGroup from './components/buttonGroup';
+import RoundButton from './components/buttonRound';
+import Content from './components/content';
 import H1 from './components/h1';
 import Hero from './components/hero'; // same as H1
 import SubHero from './components/subHero'; // sub heading for Hero
@@ -16,10 +18,14 @@ import TabHeader from './components/tabHeader';
 import TabLayout from './components/tabLayout';
 import Text from './components/text';
 
+import * as variables from './variables'
+
 export {
   Avatar,
   Button,
   ButtonGroup,
+  RoundButton,
+  Content,
   H1,
   Hero,
   SubHero,
@@ -33,4 +39,5 @@ export {
   TabHeader,
   TabLayout,
   Text,
+  variables
 }
