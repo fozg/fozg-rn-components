@@ -2,10 +2,10 @@ import React from 'react';
 import {TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/Entypo';
 
-import {styles, size, colors} from '../variables';
+import {colors} from '../variables';
 
 export default ({
-  size = 'MEDIUM',
+  size = 'medium',
   color = colors.black,
   icon,
   selectedIcon = icon,
@@ -17,8 +17,8 @@ export default ({
     onPress={onPress}
     style={{
       backgroundColor: isSelected ? colors.black : colors.lightgray,
-      width: {SMALL: 15, MEDIUM: 35, LARGE: 45}[size],
-      height: {SMALL: 15, MEDIUM: 35, LARGE: 45}[size],
+      width: {small: 15, medium: 35, large: 45}[size],
+      height: {small: 15, medium: 35, large: 45}[size],
       justifyContent: "center",
       alignItems: "center",
       borderRadius: 30,

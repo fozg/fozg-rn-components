@@ -5,6 +5,6 @@ import {theme} from '../variables';
 
 export default ({children}) => (
   <Text
-    style={theme.h1}
+    style={theme.h4}
   >{children}</Text>
 )

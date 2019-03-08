@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, ScrollView} from 'react-native';
+import {View, ScrollView} from 'react-native';
 import TabHeader from './tabHeader';
 
 export default ({title, children, ...rest}) => (

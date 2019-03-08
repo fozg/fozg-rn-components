@@ -1,5 +1,4 @@
 import React from 'react';
-import {View, Text} from 'react-native';
 
 import H1 from './h1';
 import Row from './row';

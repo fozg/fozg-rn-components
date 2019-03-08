@@ -1,11 +1,9 @@
-export const AVAIABLE_THEME_NAME = [
-  "light", "primary", "success", "info", "warning", "danger", "dark"
-];
+import {AVAIABLE_COLORS_THEME_NAME} from './variables';
 
-export function getThemeFromProps (props) {
+export function getColorSysNameFromProps (props) {
   let result = intersection(    
     Object.keys(props),
-    AVAIABLE_THEME_NAME
+    AVAIABLE_COLORS_THEME_NAME
   );
   if (result.length !== 0) {
     return result.reverse()[0];

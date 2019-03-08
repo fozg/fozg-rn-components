@@ -1,11 +1,11 @@
 import React from 'react';
 import {View} from 'react-native';
 
-import {styles, size, colors} from '../variables';
+import {colors} from '../variables';
 
 export default ({
   children,
-  size = 'MEDIUM'
+  size = 'medium'
 }) => (
   <View
     style={{
