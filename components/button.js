@@ -24,6 +24,7 @@ export default ({
         },
         style
       ]}
+      {...props}
     >
       <Text style={theme.button.text[colorSysTheme]}>{title}</Text>
     </TouchableOpacity>
